@@ -12,3 +12,10 @@ get '/windows' do
 	erb :windows
 end
 
+get '/linux' do
+	erb :linux
+end
+
+get '/contact' do
+	erb :contact
+end

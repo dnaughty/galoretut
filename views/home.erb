@@ -1,7 +1,46 @@
 <link rel="stylesheet" type="text/css" href="galore.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+
+	
 <div class="container-fluid">
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+ <a class="navbar-brand" href="https://www.facebook.com/GaloreUrbanTech/">GUT</a>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+        
+            <ul class="nav navbar-nav">
+
+ 
+
+                <li><a href="/">Home</a></li>
+                <li><a href="windows">Windows</a></li>
+                <li><a href="screencasts">Screencasts</a></li>
+                <li><a href="linux">Linux</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <h1>The Five Minute Website!</h1>
 
 <div class="container-fluid">
@@ -24,7 +63,7 @@
 	     <p>
 	     1) Create the app
 	     	Create a folder for all your Sinatra sites (To create a folder we use the command mkdir. This stands for Make DIRectory. All this does is create a folder)
-	     	<div class="img-responsive">
+	     	<div class="container-fluid">
 	     	<img src="mkdir.png" class="img-responsive">
 	     	</div>
 	     	</p>
@@ -40,12 +79,13 @@
 	        </p>
 
 	    <p>
-	<div class="img-responsive">
-	    <img src="cdsinatra.png">
-	    </div>
+	
+	    <img src="cdsinatra.png" class="img-responsive">
+	   
+	    </p>
 	     3) Now we're in the folder where our application lives. Lets create our webpage now! Lets make a site called puppies using the mkdir command and then enter that folder with the cd command:
 	     <div class="container-fluid">
-	     	<img src="puppies.png">
+	     	<img src="puppies.png" class="img-responsive">
 	     </div>
 		  </p>
 
@@ -53,9 +93,9 @@
 		  	Great! Now lets add some Sinatra Gems!
 		  	Sinatra is a Ruby framework and Ruby has these packages of code called gems. We can get the sinatra gem like this (if you have root permission to your computer you don't have to type in the command sudo):
 
-		  	<div class="img-responsive">
-	     	<img src="gem_install.png">
-	     </div>
+		  	
+	     	<img src="gem_install.png" class="img-responsive">
+	
 
 
 		  </p>
@@ -64,14 +104,16 @@
 		  	Great! Now we're ready to start making actual content!
 		  	go to the the command prompt and create a file called app,rb. The app.rb file is the spine of the app. The reason that it has the .rb at the end is so the computer knows that this is a Ruby language file. This file will hold our routes. In Ruby on Rails the routes are part of what's called Controllers. That's doesn't mean much now, but when you progress to Ruby on Rails it's going to help you. I'm using the Sublime text editor, so the command to create a new file is subl.
 
-		  	<div class="img-responsive">
-		  		<img src="subl.png">
-		  	</div> 
+		  	
+		  		<img src="subl.png" class="img-responsive">
+		  	
+		 
 
-		  	<div class="img-responsive">
-		  		<img src="app.png">
+
+		  	
+		  		<img src="app.png" class="img-responsive">
 		  	</div> 
-		  </p>
+		  
 
 </p>
 
@@ -80,3 +122,8 @@
 
 
 </div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
