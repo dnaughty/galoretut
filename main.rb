@@ -12,6 +12,3 @@ get '/windows' do
 	erb :windows
 end
 
-get '/layout' do
-	erb :layout
-end
