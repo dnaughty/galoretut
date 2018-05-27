@@ -19,3 +19,7 @@ end
 get '/contact' do
 	erb :contact
 end
+
+get '/further' do
+	erb :further
+end
