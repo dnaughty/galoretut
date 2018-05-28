@@ -11,3 +11,6 @@
 
 nav ul { list-style-type: none; }
 	
+.navbar-header {
+	color: black;
+}
