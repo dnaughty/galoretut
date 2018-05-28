@@ -23,3 +23,7 @@ end
 get '/further' do
 	erb :further
 end
+
+get '/join' do
+	erb :join
+end
